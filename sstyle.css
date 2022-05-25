@@ -22,12 +22,18 @@
   margin-left: -3px;
   top: 0;
 }
-.s1{
-  width: 100%;
+.grid-container{
+  display: grid;
+  gap: 1cm;
+  grid-template-columns: 25% 75%
 }
-.left{
+.grid-left{
   float:left;
-  width: 25%;
+}
+.grid-right{
+  float:inline-end;
+  position:relative;
+
 }
 .fotoperfil{
     width:200px;
@@ -57,11 +63,7 @@
   text-align:left;
   font-family: 'Manrope', sans-serif;
 }
-.right{
-  float:inline-end;
-  position:relative;
-  left:30px;
-}
+
 .años{
   float:right;
 }
